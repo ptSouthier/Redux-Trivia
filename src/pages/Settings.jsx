@@ -102,7 +102,7 @@ class Settings extends Component {
             name="difficulty"
             onChange={ this.handleChangeDifficulty }
             options={ this.getOptionsDifficulty() }
-            placeholder="Selecione uma dificuldade"
+            placeholder="Select the Difficulty"
           />
           <Button
             text="Salvar"
