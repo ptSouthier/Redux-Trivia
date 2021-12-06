@@ -94,7 +94,7 @@ class Settings extends Component {
 
     return (
       <section className="container login-container">
-        <h1 data-testid="settings-title"> Configurações </h1>
+        <h1 data-testid="settings-title"> Settings </h1>
         <form>
           <Input name="quantity" handleChange={ this.handleChange } />
           { categories && this.getSelectCategories() }
