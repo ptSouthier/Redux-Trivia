@@ -39,7 +39,7 @@ class Settings extends Component {
         name="category"
         onChange={ this.handleChangeCategory }
         options={ this.getOptionsCategories() }
-        placeholder="Selecione uma categoria"
+        placeholder="Select a Category"
       />
     );
   }
