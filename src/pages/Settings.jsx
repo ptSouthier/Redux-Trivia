@@ -105,11 +105,11 @@ class Settings extends Component {
             placeholder="Select the Difficulty"
           />
           <Button
-            text="Salvar"
+            text="Save"
             type="button"
             handleClick={ this.save }
             classList="button-primary"
-            key="Salvar-Settings"
+            key="Save-Settings"
           />
         </form>
       </section>
